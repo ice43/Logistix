@@ -18,4 +18,5 @@ struct User: Codable, Identifiable {
     let email: String
     let name: String
     let pass: String
+    let auto: String?
 }

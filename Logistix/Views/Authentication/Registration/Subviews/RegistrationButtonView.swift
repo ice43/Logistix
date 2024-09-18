@@ -19,7 +19,8 @@ struct RegistrationButtonView: View {
                     password: registrationVM.password,
                     fullName: registrationVM.fullName,
                     phoneNumber: nil,
-                    role: .user
+                    role: .user,
+                    auto: registrationVM.auto
                 )
             }
         } label: {
