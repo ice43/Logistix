@@ -10,6 +10,7 @@ import Foundation
 enum Role: String {
     case user
     case admin
+    case driver
 }
 
 struct User: Codable, Identifiable {
